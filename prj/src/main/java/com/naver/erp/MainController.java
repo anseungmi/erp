@@ -102,6 +102,7 @@ public class MainController {
 					ModelAndView mav = new ModelAndView();
 					mav.setViewName("registTea.jsp");
 					return mav;}
+	
 	@RequestMapping( value="/registClass.do")
 	public ModelAndView registClass( 
 			){
@@ -116,6 +117,12 @@ public class MainController {
 				mav.setViewName("gyeoljaeRegForm.jsp");
 				return mav;}
 	
+	@RequestMapping( value="/dayOff.do")
+	   public ModelAndView dayoffForm(){
+		
+	      ModelAndView mav = new ModelAndView();
+	      mav.setViewName("dayOff.jsp");
+	      return mav;}
 }
 
 

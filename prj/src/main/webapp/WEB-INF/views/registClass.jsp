@@ -95,7 +95,7 @@ function saveData(){
 <body>
   <form class="header">
     <div class="header_box">
-      <div class="logo" onclick="location.replace('/adminMain.do')">
+      <div class="logo" onclick="location.replace(                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         )">
         <img src="">
         <div>
           ERP
